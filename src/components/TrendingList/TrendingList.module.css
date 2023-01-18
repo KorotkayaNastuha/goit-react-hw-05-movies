@@ -1,0 +1,32 @@
+.item{
+    position: relative;
+
+} 
+.item:hover {
+    transform: scale(1.05)
+} 
+
+.img{
+border-radius: 0 0px 10px 10px;
+width: 300px;
+display: flex;
+margin-bottom: 40px ;
+} 
+
+.title{ 
+display: block;
+position: absolute;
+width: 100%;
+background: aquamarine;
+font-weight: 500;
+font-size: 16px;
+color: #000;
+padding: 10px 0;
+text-align: center;
+margin: auto;
+bottom: 100%;
+left:0;
+border-radius: 10px 10px 0px 0px;
+
+}
+

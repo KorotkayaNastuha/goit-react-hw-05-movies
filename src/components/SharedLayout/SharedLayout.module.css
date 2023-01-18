@@ -1,0 +1,25 @@
+.container {
+    max-width: 1480px;
+    margin: 0 auto; 
+}
+.nav{
+    font-size: 2rem;
+    gap: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 16px 0 16px 16px;
+    margin:  auto 0;
+    text-decoration: none;
+    color: black;
+    
+}
+.header {
+    height: 80px;
+    background-color: aquamarine;
+    
+}
+.nav_active {
+    color: #fff;
+    text-decoration: none;
+}

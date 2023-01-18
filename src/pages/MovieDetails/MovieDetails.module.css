@@ -1,0 +1,27 @@
+.details{
+    padding-left: 20px;
+    padding-right: 20px;
+    display:flex;         
+}
+.movieDetails{  
+    padding: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-family:monospace;   
+}
+
+.linkButton{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    background-color:aquamarine;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
