@@ -13,8 +13,8 @@ export const CastInfo = ({ poster, original_name, character }) => {
 
 
     return <div className={css.castCard}>
-        <img src={castImg()} width="160" alt={original_name} />
-            <p className={css.info}>Name:{original_name}</p>
-            <p className={css.info}>Character:{character}</p>
+        <img className={css.castImg} src={castImg()} width="160" alt={original_name} />
+            <p className={css.castInfo}>Name:{original_name}</p>
+            <p className={css.castInfo}>Character:{character}</p>
         </div>
 }
